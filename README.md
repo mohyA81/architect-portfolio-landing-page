@@ -21,7 +21,6 @@ This project is part of my frontend mini-projects series to build solid skills i
 - **HTML5**
 - **CSS3**
 - **JS**
-- **Bootstrap 5**
 - Responsive Grid + Flexbox
 
 ---
