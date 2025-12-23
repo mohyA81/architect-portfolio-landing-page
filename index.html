@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ethan Ward - Senior Architect</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Vazirmatn:wght@300;400;500;700&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav class="navbar">
+
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <div class="mobile-menu">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO SECTION ===================== -->
+    <header class="hero" id="home">
+        <div class="hero-left">
+
+            <h1 class="hero-name">Ethan Ward</h1>
+
+            <p class="hero-title">Senior Architect</p>
+
+            <p class="hero-description">
+                I design spaces that enhance life and work, blending identity and purpose into every detail.
+            </p>
+
+            <a href="#projects" class="cta-btn">See More</a>
+        </div>
+
+        <div class="hero-right">
+            <div class="circle-bg"></div>
+            <div class="profile-img">
+                <img src="assets/img/pic.jpg" loading="lazy" alt="Architect Portrait">
+            </div>
+        </div>
+    </header>
+<section class="features features--grid">
+  <figure class="features__figure">
+    <img src="assets/img/feature.svg"
+         class="features__img"
+         alt="Architect Work Sample"
+         loading="lazy">
+  </figure>
+
+  <dl class="features__items">
+    <div class="features__item">
+      <dt class="features__header">Custom Architectural Solutions</dt>
+      <dd>Precise architectural design tailored to each project's needs, blending aesthetics and functionality.</dd>
+    </div>
+
+    <div class="features__item">
+      <dt class="features__header">Modern Interior Design & Space Optimization</dt>
+      <dd>Smart, modern interior design that maximizes practical space and enhances circulation flow.</dd>
+    </div>
+
+    <div class="features__item">
+      <dt class="features__header">3D Visualization & Concept Rendering</dt>
+      <dd>Realistic 3D visualizations that help clients see the final concept before execution.</dd>
+    </div>
+
+    <div class="features__item">
+      <dt class="features__header">Project Management & Material Guidance</dt>
+      <dd>Full support with material selection and project execution from start to delivery.</dd>
+    </div>
+  </dl>
+</section>
+<section id="projects" class="portfolio">
+    <h2 class="portfolio__title">Selected Projects</h2>
+
+    <div class="portfolio__grid">
+
+        <div class="portfolio__item">
+            <img src="assets/img/proj-1.jpg" loading="lazy" alt="Project 1">
+            <div class="portfolio__overlay">
+                <h3>Modern Loft Design</h3>
+                <p>Interior Design / 2024</p>
+            </div>
+        </div>
+
+        <div class="portfolio__item">
+            <img src="assets/img/proj-2.jpg" loading="lazy" alt="Project 2">
+            <div class="portfolio__overlay">
+                <h3>Minimalist House</h3>
+                <p>Architecture / 2023</p>
+            </div>
+        </div>
+
+        <div class="portfolio__item">
+            <img src="assets/img/proj-3.jpg" loading="lazy" alt="Project 3">
+            <div class="portfolio__overlay">
+                <h3>Commercial Space</h3>
+                <p>Interior & Branding / 2024</p>
+            </div>
+        </div>
+
+        <div class="portfolio__item">
+            <img src="assets/img/proj-4.jpg" loading="lazy" alt="Project 4">
+            <div class="portfolio__overlay">
+                <h3>Modern apartment</h3>
+                <p>Interior Design / 2020</p>
+            </div>
+        </div>
+
+        <div class="portfolio__item">
+            <img src="assets/img/proj-5.jpg" loading="lazy" alt="Project 5">
+            <div class="portfolio__overlay">
+                <h3>Wooden Elements Apartment</h3>
+                <p>Interior / 2023</p>
+            </div>
+        </div>
+
+        <div class="portfolio__item">
+            <img src="assets/img/proj-6.jpg" loading="lazy" alt="Project 6">
+            <div class="portfolio__overlay">
+                <h3>Concept Villa</h3>
+                <p>Architecture / 2024</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__brand">
+            
+            <p class="footer__text">
+                Creating architecture and interior design with clarity, identity, and purpose.
+            </p>
+        </div>
+        <ul class="footer__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <ul class="footer__socials">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Behance</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+
+    </div>
+
+    <div class="footer__bottom">
+        <p>© 2025 Ethan Ward. All Rights Reserved.</p>
+    </div>
+</footer>
+<!-- JS -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const menu = document.querySelector(".mobile-menu");
+    const nav = document.querySelector(".nav-links");
+
+    menu.addEventListener("click", () => {
+        nav.classList.toggle("nav-open");
+        menu.classList.toggle("open");
+    });
+
+});
+</script>
+
+</body>
+</html>
+
+
