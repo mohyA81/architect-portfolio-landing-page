@@ -39,13 +39,6 @@ This project is part of my frontend mini-projects series to build solid skills i
 
 ## 🚀 Live Demo (GitHub Pages)
 
-After upload, activate GitHub Pages:
-
-1. Go to **Settings**
-2. **Pages**
-3. Choose: _Deploy from branch_
-4. Branch: `main` — Folder: `/root`
-
 Your site will appear at:
 
 https://github.com/mohyA81
