@@ -37,7 +37,7 @@ This project is part of my frontend mini-projects series to build solid skills i
 
 ---
 
-## 🚀 Your site will appear at:
+## 🚀 Your site will appear at
 
 https://github.com/mohyA81
 https://github.com/mohyA81/architect-portfolio-landing-page.git
